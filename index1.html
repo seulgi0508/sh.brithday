@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1102-test</title>
+    <style>
+        #a{
+            color: green;
+        }
+        #b{
+            color : red;
+        }
+        #aa{
+            color:blueviolet;
+        }
+        #q{
+            color:rgb(7, 110, 244);
+        }
+        #name{color:purple;
+            background-image: url('sk.jpg');
+        }
+       body{
+       
+        background-size:;
+       }
+       <style>
+          @media screen and (max-width:767px){
+         /*body {background-color: aliceblue;}*/
+      }
+      @media screen and (min-width :768px)and (max-width:959px){
+         /*body {background-color: aliceblue;}*/
+      }
+      @media screen and (min-width:960px){
+       /*body {background-color: aliceblue;}*/
+      }
+        #menu{
+           background: olive;
+        }
+        #menu ul {
+           margin :0;
+           padding : 0;
+           width:900px;
+        }
+        #menu ul li{
+
+           display: inline-block;
+           list-style-type: none;
+           padding: 5px  15px;
+        }
+        #menu ul li a{
+           color : white;
+           text-decoration: none;
+        }
+        #menu ul li a:hover{
+           color:wheat;
+        }
+    </style>
+</head>
+<body>
+    <div id="name">
+    <h1>SOHYUN HAPPY BIRTHDAY TO YOU!🙂</h1> <img src="sk.jpg" alt="" width="100">
+<p>2000.12.09</p>
+</div> 
+지금 시간은?
+<script>
+    var current = new Date;
+    document.write(current.getHours(),"시 ");
+    document.write(current.getMinutes(),"분 ");
+
+    
+  </script>
+     <nav id="menu">
+        <ul>
+            <li><a href="index1.html">HOME</a></li>
+            <li><a href="palylist.html">소현이만을 위한 노래추천</a></li>
+            <li><a href="index.html">MAIN</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+
+   
+    <audio src="풍경 - V.mp3"controls="controls"></audio>
+    <br>
+    겨울소리가 들어가 있는 노래야. 노래 제목은 풍경
+    <br>
+    <br>
+    <br>
+    <div id="a">
+    <p>대구대학교 LMS</p>
+        <a href="https://lms.daegu.ac.kr/ilos/main/main_form.acl"><img src="대구.jpg" alt="" width="100"></a>
+    </div>
+    소현이가 이 홈페이지로 대구대 lms 한번 이용한다면, 뿌듯할거 같은데!!!!ㅋㅋ
+    <br>
+    <div id="aa">
+    <p>현재 대구 날씨</p>
+    </div>
+    <button onclick="getWeather()">🍦</button>
+    <p id="temperature"></p>
+    <script>
+        function getWeather() {
+            fetch('http://goweather.herokuapp.com/weather/Deagu')
+            .then((response)=>response.json())
+            .then((data)=>{
+                document.getElementById("temperature").innerHTML = data['description']
+                
+            });
+        }
+        </script>
+        <p>이거 비올때는 Rainy day, 눈 올때는 snow 라고 뜬다<br>눈오면 cloudy 날 좋으면 clear,그것도 아니면 sunday! </p>
+       <p>
+        (이건 만나면, 직접 보여줄게...이거 원래 막 온도도 나와<br>
+        여기선 통신이 잘 안되네ㅠㅠ😥아숩)
+       </p>
+       <br>
+       <br>
+       <p>but!!! 아쉬운대로 이거라도</p>
+       <div id="q">
+       <p>날씨를 클릭해보세요.</p></div>
+      <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=1&acq=%EB%8C%80%EA%B5%AC%EB%82%A0%EC%94%A8&qdt=0&ie=utf8&query=%EB%8C%80%EA%B5%AC%EB%82%A0%EC%94%A8"> <img src="5.PNG" alt=""></a>
+        <br>
+        <div id="b">
+        <p>유튜브</p>
+        <a href="https://www.youtube.com/"><img src="youtube.jpg" alt="" width="100"></a>
+    </div>
+     <p>이거 누르면 유튜브로 들어가지롱</p>
+  <br>
+  <br>
+    이쯤에서 도경수 사진 한번 넣어줄까
+    <br>
+    <img src="1.jpg" alt="" width="200">
+    <br>
+    곧 연말시상식이네. 말도 안돼..... 
+    d보니깐 학점이 생각나 d받기 싫어 <br>
+    난 B이상이라도 받으면 좋겠어
+
+
+
+  <br>
+
+<br>
+ <br>
+ 
+    <h2>소현이 사용법(?)</h2>
+    <p>신박한거 없나 생각하다가 가사 개사했어 ㅋㅋㅋ<br>
+    요즘 이노래 듣고 있거든 </p> <br>
+    <p>에디킴- 너 사용법 가사 재편성(?)</p>
+
+   <p> 겨울에는 부드럽고 따뜻한 코코아를 같이 마시시오<br>
+    매일 한 번씩 사용하시오 <br>
+    가끔 지칠 땐 <br>
+    그녀를 웃게 hey What's up beauty 빵을 주시오<br>
+    <br>
+    <br>
+    그날 저녁엔 일어나서<br>
+    Turning on exo music 함께 들으시오 <br>
+    <br>
+    <br>
+    지쳐보일땐, 따뜻한 마음을 들고<br>
+    솔직하게 그녀의 마음을 두드리시오<br>
+    <br>
+    <br>
+    가끔 한 번씩 무작정 같이 떠나가시오<br>
+    다른 하늘 다른 바람 숨 쉬게 해 줘<br>
+    가끔 한 번씩 무작정 안부 연락 해주시오<br>
+    이유 없이 너에게 빠진 그날 처럼<br>
+    <br>
+    <br>
+    잘 때는 나긋하게 조용하게 눈물 나게 말해 주시오<br>
+    매일 한 번씩 너무 고마워<br>
+    <br>
+    <br>
+    그녀는 야채를 좋아하지 않으니<br>
+    요리해주게 되면, 야채는 넣지마시오
+    <br>
+    <br>
+    바래다줄 땐 발걸음 천천히 <br>
+    그녀를 잘 바래다 주시오<br>
+    
+    <br>
+    <br>
+    그녀는 통금이 있으니<br>
+    너무 늦게까지 같이 있진 마시오<br>
+    <br>
+    <br>
+    다른 사람 앞에선 무뚝뚝하지만<br>
+    이상하겐 너 앞에선 풀어져<br>
+    널 사용하기엔 너무 아까워<br>
+    마냥 멀리서 지켜보기엔 난 아쉬워<br>
+    영원히 너가 행복하길 바란다<br>
+    oh my oh my girl (오마이걸?!!!! 오마이걸 요새 뭐해...)<br>
+    <br>
+    <br>
+    부드럽게 따뜻하게 묵묵하게 옆에 있어주시오<br>
+    매일 한 번씩 그렇게 사용하시오<br>
+    <br>
+    <br>
+    이 아름다운 girl 놓치진 마시오</p>
+    <br>
+
+    <p>나 작사가 할까봐 <br>
+        어떤거는 원곡 가사 그대로 했고,<br>
+        나머진  내 머리속에서 나온거야.
+       <br>
+       생일 축하해. 태어나줘서 고맙다~~~~!!!!!!
+    </p>
+
+    <button><a href="https://www.youtube.com/watch?v=7aqPeCu5ERE">원곡 들으러 가기🍰</a></button>
+    <br>
+
+    <br>
+    <img src="p.jpg" alt="">
+    <img src="22.gif" alt="">
+    <hr>
+
+   개발자 : 권슬기 bybkk00@naver.com
+    
+</html>
